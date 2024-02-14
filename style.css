@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Protest+Guerrilla&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  text-decoration: none;
+  text-transform: none;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: gray;
+}
+.bnt_do_perfil {
+  border: none;
+  background-color: black;
+  padding: 0px;
+  border-radius: 50%;
+  margin: 30px 40px 15px 40px;
+  transition: 300ms;
+}
+.bnt_do_perfil:hover {
+  transform: translate(5px, 4px);
+}
+#meu_rosto {
+  border-radius: 50%;
+  height: 120px;
+  top: px;
+  left: 40px;
+}
+
+.barra_principal {
+  background: linear-gradient(black, grey);
+  box-shadow: 0 2px 10px black;
+  border-radius: 0 0 10px 10px;
+  display: flex;
+  justify-content: space-between;
+
+  align-items: center;
+}
+.navegacao a {
+  background-color: transparent;
+  text-decoration: none;
+  color: white;
+}
+
+.navegacao button {
+  padding: 20px;
+  border-radius: 20px;
+  background-color: transparent;
+  font-size: 20px;
+  color: white;
+  border: none;
+}
+
+.butao_busca {
+  transition: 300ms;
+}
+.butao_busca:hover {
+  transform: scale(1.2);
+}
+.redes_sociais {
+  margin-right: 100px;
+  padding: 0px;
+}
+
+.iconis_redes_sociais {
+  border: none;
+  background-color: transparent;
+  color: white;
+  padding: 0px;
+  border-radius: 50%;
+  margin: 7px;
+  transition: 300ms;
+}
+.iconis_redes_sociais:hover {
+  transform: scale(1.1);
+}
+i {
+  color: white;
+}
+.redes_sociais i {
+  font-size: 50px;
+}
+.corpo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Roboto";
+}
+.corpo .bloco_de_curso {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.corpo span {
+  color: white;
+  font-size: 30px;
+  margin: 25px;
+}
+#primeiro {
+  margin-top: 90px;
+}
+.corpo img {
+  height: 500px;
+  margin-bottom: 50px;
+  border-radius: 30px;
+}
+#img-fundo {
+  margin-bottom: 60px;
+}
